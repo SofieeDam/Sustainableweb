@@ -67,17 +67,18 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    font-weight: bold;
 }
 
 .overskrift2 {
     display: flex;
     justify-content: center;
     margin-top: 15px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 p {
-    line-height: 3rem;
+    line-height: 1.5rem;
     text-align: center;
 }
 
@@ -91,7 +92,7 @@ p {
 }
 
 .infobox {
-    margin: 70px;
+    margin: 20px;
     background-color: #669965;
     padding: 20px;
     display: flex;
@@ -107,8 +108,19 @@ p {
     flex-direction: column;
 }
 
-.infobox-text {
-    
+footer {
+    background-color: #544840;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.copyright img {
+    width: 100px;
+    height: auto;
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width: 400px ) {
@@ -143,5 +155,5 @@ p {
         display: flex;
     }
 
-    
+
 }
